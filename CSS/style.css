@@ -1,0 +1,85 @@
+/* common classes */
+.primmary
+{
+
+}
+.secondry
+{
+
+}
+.terarcy
+{
+
+}
+.p{
+
+}
+
+truncate
+/* navbar */
+nav.navbar.navbar-expand {
+    background: #2E423D;
+}
+.col.logo {
+    display: flex;
+    justify-content: center;
+}
+.col.buton {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+a.nav-link {
+    color: #A1C1AC;
+    font-family: 'Archivo';
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.nav-link:focus, .nav-link:active {
+    color: #EBE3DC !important;
+    font-weight: 700;
+
+}
+.nav-link:hover {
+    color: #A1C1AC;
+}
+button.btn.btn-news {
+    border-radius: 5px;
+    border: 1px solid #A1C1AC;
+    color: #A1C1AC;
+    font-family: 'Archivo';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 17.41px;
+    padding: 14px;
+    text-transform: uppercase;
+}
+button.btn.btn-news:hover {
+    background-color: #A1C1AC;
+    color: black !important;
+}
+/* section one */
+.bg {
+    background-image: url(../images/banner-one.png);
+    background-size: cover;
+    background-position: bottom;
+}
+h2.section-one {
+    font-family: 'Lora';
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    padding: 250px 0 250px;
+}
+    
+/* section two */
+.container-fluid.two {
+    padding: 120px 60px;
+}
+.card {
+    margin-bottom: 35px;
+}
