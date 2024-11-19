@@ -97,17 +97,10 @@ $(document).ready(function () {
 
 
 
-    // Load header and footer dynamically
-
-$(document).ready(function() {
-    $('#header-placeholder').load('header.html');
-    $('#footer-placeholder').load('footer.html');
-});
 
 
 
 
-// how to call hedaer and foter dynimacally fro other papges in html jqueery
 
 
-// create folder structrue fot this header and footer and for header and footer crete a folder main and for other pages crete afolde pages 
+
