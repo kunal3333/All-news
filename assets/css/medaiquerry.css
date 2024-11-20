@@ -1,0 +1,127 @@
+@media only screen and (max-width:1399px) {
+    li.nav-item a {
+        font-size: 14px;
+    }
+
+    button.btn.btn-news {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 55px;
+    }
+
+    h5 {
+        font-size: 24px;
+    }
+
+    .card-body p {
+        line-height: 25px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+    .custom-dropdown select {
+        width: 180px;
+        height: 50px;
+    }
+    .custom-dropdown .dropdown-arrow {
+        right: 25%;
+        top: 13%;
+    }
+}
+@media only screen and (max-width:1199px) {
+    .menu {
+        display: block;
+    }
+    ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+        display: none;
+    }
+    .col.logo {
+        margin-left: 30%;
+    }
+    #nav-icon3 {
+        width: 40px;
+        height: 30px;
+        position: absolute;
+        top: 14px;
+        left:20px;
+        z-index: 10;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        transition: transform 0.5s ease;
+    }
+
+    #nav-icon3 span {
+        display: block;
+        width: 100%;
+        height: 4px;
+        background:#A1C1AC;
+        border-radius: 2px;
+        transition: transform 0.25s ease;
+    }
+    @media only screen and (max-width:1199px) {
+
+    #nav-icon3.open span:nth-child(1) {
+        transform: rotate(42deg) translate(10px, 10px);
+    }
+
+    #nav-icon3.open span:nth-child(2) {
+        opacity: 0;
+    }
+
+    #nav-icon3.open span:nth-child(3) {
+        transform: rotate(-46deg) translate(5px, -5px);
+    }
+
+    .mobile-navbar {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 40%;
+        height: 100%;
+        background-color: #111;
+        color: white;
+        z-index: 5;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: right 0.4s ease;
+    }
+
+    .mobile-navbar.open {
+        left: 0;
+    }
+
+    .mobile-navbar .menu {
+        text-align: left;
+        width: 80%;
+    }
+
+    .mobile-navbar .menu a {
+        display: block;
+        padding: 15px 0;
+        color: white;
+        text-decoration: none;
+        transition: color 0.3s ease;
+        font-family: 'Rajdhani';
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 10px;
+    }
+
+    .mobile-navbar .menu a:hover {
+        color: #fff;
+    }
+
+}
+}
+@media only screen and (max-width:991px) {
+    
+
+}

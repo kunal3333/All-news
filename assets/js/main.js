@@ -94,6 +94,17 @@ $(document).ready(function () {
 
 
 
+  // Moboile menu
+
+  $(document).ready(function() {
+    $('#nav-icon3').click(function() {
+        $(this).toggleClass('open');
+        $('.mobile-navbar').toggleClass('open');
+    });
+});
+
+
+
 
 
 
