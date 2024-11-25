@@ -45,7 +45,7 @@
         width: 40px;
         height: 30px;
         position: absolute;
-        top: 14px;
+        top: 10px;
         left:20px;
         z-index: 10;
         cursor: pointer;
@@ -64,8 +64,6 @@
         border-radius: 2px;
         transition: transform 0.25s ease;
     }
-    @media only screen and (max-width:1199px) {
-
     #nav-icon3.open span:nth-child(1) {
         transform: rotate(42deg) translate(10px, 10px);
     }
@@ -105,23 +103,117 @@
 
     .mobile-navbar .menu a {
         display: block;
-        padding: 15px 0;
-        color: white;
+        padding: 10px 0;
         text-decoration: none;
+        color: #A1C1AC;
+        font-family: 'Archivo';
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
         transition: color 0.3s ease;
-        font-family: 'Rajdhani';
-        font-size: 18px;
-        font-weight: 500;
-        line-height: 10px;
+
     }
 
     .mobile-navbar .menu a:hover {
         color: #fff;
     }
-
 }
+@media only screen and (max-width:991px){
+    h5 {
+        font-size: 20px;
+    }.card-body p {
+        line-height: 22px;
+    }.footer .nav-item:not(:last-child)::after {
+        margin: 26px;
+    }.row.top img {
+        margin: 0px 0 50px;
+    }h2 {
+        font-size: 43px;
+    }
+    .event-left {
+        display: none;
+    }
+    .event-section {
+        display: flex;
+        flex-direction: column;
+    }   img.twooimg {
+        margin-top: 120px !important;
+    }h4 {
+        font-size: 27px;
+    }
 }
-@media only screen and (max-width:991px) {
-    
-
+@media only screen and (max-width:767px){
+    button.btn.btn-news {
+        display: none;
+    }
+    i.fa-solid.fa-user-plus.newsss {
+        display: block;
+        color: #A1C1AC;
+        font-size: 20px;
+        margin-top: 4px;
+    }.footer .nav-item:not(:last-child)::after {
+        margin: 13px;
+    }
+    .footer .copyright, .footer .links {
+        font-size: 15px;
+    }
+    h1 {
+        line-height: 65px;
+    }.row.top img {
+        margin: 0px !important;
+    }h2 {
+        font-size: 37px;
+    }.custom-dropdown select {
+        height: 40px;
+    }.container-fluid.spacing .col:nth-child(2) {
+        margin-top: 13px;
+    }img.twooimg.to {
+        margin-top: 60px !important;
+        margin-bottom: 40px !important;
+    }h2 {
+        font-size: 31px;
+    }.container-fluid.spacing {
+        padding: 60px ;
+    }button.btngroup {
+        font-size: 15px;
+        padding: 10px;
+    }
+    .col.buton img {
+        width: 25px;
+    }
+}
+@media only screen and (max-width:575px){
+    h1 {
+        font-size: 50px;
+    }h1.section-one.mob {
+        font-size: 40px;
+    }img.twooimg.to {
+        margin: 0px !important;
+    }
+.large-paragraph {
+    line-height: 25px;
+    word-break: break-all;
+}
+.card-body p {
+    word-break: break-all;
+}h2 {
+    font-size: 25px;
+}.custom-dropdown select {
+    height: 36px;
+}.custom-dropdown .dropdown-arrow {
+    right: 25%;
+    top: 7%;
+}.event-center {
+    margin-right: 0px;
+}img.twooimg.to.mobi {
+    margin-top: 60px !important;
+    margin-bottom: 40px !important;
+}.container-fluid.twooo {
+    padding: 60px;
+}   .footer .nav-item:not(:last-child)::after {
+    display: none;
+}.meenu {
+    flex-direction: column;
+    align-items: baseline;
+}
 }

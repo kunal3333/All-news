@@ -258,6 +258,7 @@ nav.d-flex.justify-content-center {
 
 .bread {
   margin: 60px 0 60px;
+  padding: 0 60px;
 }
 
 img.twooimg {
@@ -512,4 +513,15 @@ p.large-paragraph .last-child {
 }
 .menu {
   display: none;
+}
+button.btn.btn-custom:hover {
+  border: none;
+  color: #2E423D;
+}
+i.fa-solid.fa-user-plus.newsss {
+  display: none;
+}img.twooimg.to {
+  margin-top: 0px;
+}.col.buton img {
+  width: 34px;
 }
